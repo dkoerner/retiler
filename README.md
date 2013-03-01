@@ -10,7 +10,9 @@ I wrote this code as part of my thesis some time ago and thought it might be use
 
 ###requirements
 Retiler uses [CGAL](http://www.cgal.org) for computationally stable intersection and orientation tests. Only the basic "2D and 3D Linear Geometry Kernel" package of cgal is used. This particular package is licensed under LGPL. 
-	
+
+There is a cmake script which currently doesnt add the cgal dependency. Once this works CMake can be used to build the project.
+
 ###license
 Copyright (c) David Koerner
 
