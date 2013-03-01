@@ -22,3 +22,15 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+###notes
+
+Directory Structure:
+
+    src/        - source code
+      main.cpp  - Shows a simple example for how to use the different classes to retile a mesh given as obj file on disk.
+      Mesh.h    - very simple Mesh container for vertices and triangles
+      ObjIO.h   - allows import and export of Mesh instances to disk. The obj file format is used.
+      MeshEx.h  - takes a simple mesh and turns it into more complex winged edge datastructure. This is used by retiler.
+      Retiler.h - Here the algorithm is actually implemented. See main.cpp how it is used. 
+      math/     - simple math framework for vectors etc.
+    
