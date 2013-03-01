@@ -1,3 +1,4 @@
+// Copyright (c) David Koerner - https://github.com/dkoerner/retiler - see README.md for details
 /*---------------------------------------------------------------------
 
 This class performs the algorithm which is proposed in the paper
@@ -76,3 +77,7 @@ private:
 	float                                                                                           m_damp; // damping factor of the repulsion forces
 	size_t                                                                                m_iterationCount; // number of iterations for moving the vertices into their place
 };
+
+
+
+

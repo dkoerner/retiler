@@ -1,3 +1,4 @@
+// Copyright (c) David Koerner - https://github.com/dkoerner/retiler - see README.md for details
 #include "Noise.h"
 
 

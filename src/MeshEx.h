@@ -1,8 +1,4 @@
-/*---------------------------------------------------------------------
-
-
-
-----------------------------------------------------------------------*/
+// Copyright (c) David Koerner - https://github.com/dkoerner/retiler - see README.md for details
 #pragma once
 #include <map>
 #include <vector>
@@ -310,3 +306,7 @@ public:
 
 		size_t             triangleCount; // temp for debugging
 	};
+	
+	
+	
+	

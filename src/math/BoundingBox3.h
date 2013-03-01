@@ -1,3 +1,4 @@
+// Copyright (c) David Koerner - https://github.com/dkoerner/retiler - see README.md for details
 /*---------------------------------------------------------------------
 
 The BoundingBox class is a very simple utility class for working with

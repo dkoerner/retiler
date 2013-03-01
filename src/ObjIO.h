@@ -1,3 +1,4 @@
+// Copyright (c) David Koerner - https://github.com/dkoerner/retiler - see README.md for details
 /*---------------------------------------------------------------------
 
 ObjIO offers import and export support for obj files.
@@ -30,3 +31,11 @@ namespace dk
 		void exportToObjFile( Mesh *mesh, std::string fileName );  ///< creates and writes a Obj file from the given mesh
 	} // namespace io
 } // namespace dk
+
+
+
+
+
+
+
+
